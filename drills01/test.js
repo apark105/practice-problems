@@ -63,10 +63,10 @@ var testVals = [{
       [{'familyName' : 'McGee','givenName': 'Chuckles','greeting': 'Miss.','age': 28,'height' : 165,'colors': {'eye': 'green','hair': 'green'},'home address': {'streetNumber': '12345','streetName': 'Any St','state': 'Mo','zip': 63102,'city': 'Kansas City'}}],
     ],
     outputs: [`Mr. Daniel Paschal
-9200 Irvine Center Drive
-Irvine, CA 92618`,`Miss. Chuckles McGee
-12345 Any St
-Kansas City, Mo 63102`
+              9200 Irvine Center Drive
+              Irvine, CA 92618`,`Miss. Chuckles McGee
+              12345 Any St
+              Kansas City, Mo 63102`
     ]
   },
   functionToTest: 'makeLabel'
